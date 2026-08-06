@@ -6,10 +6,15 @@ Backend
 Framework: ASP.NET Core 8 Web API
 Arquitectura en capas:
 	Abstracciones — entidades (Modelos/VideoJuego) e interfaces de contrato para cada capa
+	
 	DA (Data Access) — acceso a datos con Entity Framework Core
+	
 	Reglas — validaciones de negocio
+	
 	Flujo — orquesta Reglas + DA
+	
 	Servicios — capa de exposición hacia la API
+	
 	Api — controladores REST + configuración (inyección de dependencias, CORS, Swagger)
 
 ORM: Entity Framework Core 8
