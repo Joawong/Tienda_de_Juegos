@@ -1,0 +1,6 @@
+C:\Users\Adria\OneDrive\Escritorio\Tienda_Juegos_API\API\BD\bin\Debug\BD.dacpac
+C:\Users\Adria\OneDrive\Escritorio\Tienda_Juegos_API\API\BD\bin\Debug\BD.dll
+C:\Users\Adria\OneDrive\Escritorio\Tienda_Juegos_API\API\BD\bin\Debug\BD.pdb
+C:\Users\Adria\OneDrive\Escritorio\Tienda_Juegos_API\API\BD\obj\Debug\BD.sqlproj.AssemblyReference.cache
+C:\Users\Adria\OneDrive\Escritorio\Tienda_Juegos_API\API\BD\obj\Debug\BD.dll
+C:\Users\Adria\OneDrive\Escritorio\Tienda_Juegos_API\API\BD\obj\Debug\BD.pdb

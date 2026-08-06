@@ -1,0 +1,137 @@
+.catalogo {
+    --steam-bg: #1b2838;
+    --steam-panel: #171a21;
+    --steam-card: #2a3f5a;
+    --steam-texto: #c7d5e0;
+    --steam-texto-suave: #8f98a0;
+    --steam-precio: #a4d007;
+    background: var(--steam-bg);
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    color: var(--steam-texto);
+}
+
+.catalogo-nav {
+    background: var(--steam-panel);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.catalogo-logo {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.catalogo-buscar {
+    background: var(--steam-card);
+    border: 1px solid #3a5573;
+    color: var(--steam-texto);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    width: 260px;
+}
+
+.catalogo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.25rem;
+    padding: 2rem;
+}
+
+.catalogo-card {
+    background: var(--steam-card);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    cursor: pointer;
+}
+
+    .catalogo-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+.catalogo-portada {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalogo-inicial {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.catalogo-info {
+    padding: 0.75rem 1rem 1rem;
+}
+
+.catalogo-titulo {
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 0 0.25rem;
+}
+
+.catalogo-plataforma {
+    font-size: 0.75rem;
+    color: var(--steam-texto-suave);
+}
+
+.catalogo-pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+
+.catalogo-genero {
+    font-size: 0.75rem;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    color: var(--steam-texto-suave);
+}
+
+.catalogo-precio {
+    font-family: "Inter", sans-serif;
+    font-variant-numeric: tabular-nums;
+    color: var(--steam-precio);
+    font-weight: 600;
+}
+
+.catalogo-vacio,
+.catalogo-error {
+    text-align: center;
+    color: var(--steam-texto-suave);
+    padding: 3rem 0;
+}
+
+.catalogo-nav-derecha {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.catalogo-boton-admin {
+    color: var(--steam-texto);
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #3a5573;
+    border-radius: 4px;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+    .catalogo-boton-admin:hover {
+        background: var(--steam-precio);
+        color: #12210a;
+        border-color: var(--steam-precio);
+    }
